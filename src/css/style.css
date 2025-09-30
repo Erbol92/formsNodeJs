@@ -1,0 +1,28 @@
+body {
+    color: #ebe1e1;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-lg {
+    padding: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    top: 200px;
+    left: 200px;
+    position: relative;
+}
+.popover {
+    position: absolute;
+    color: black;
+    border: solid grey 1px;
+    padding: 5px;
+}
+
+.popover-title {
+    background-color: aquamarine;
+}
