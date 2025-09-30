@@ -8,7 +8,7 @@ describe("e2e", () => {
     browser = await puppeteer.launch({
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
       executablePath: puppeteer.executablePath(),
-      headless: false,
+      headless: true,
       slowMo: 100,
       devtools: true,
     });
