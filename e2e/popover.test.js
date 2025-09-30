@@ -31,7 +31,6 @@ describe("e2e", () => {
   }, 10000);
 
   afterEach(async () => {
-    await page.close();
     await browser.close();
   });
 });
