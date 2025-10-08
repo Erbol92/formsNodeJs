@@ -6,7 +6,7 @@ describe("e2e", () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
       executablePath: puppeteer.executablePath(),
       headless: true,
       slowMo: 100,
